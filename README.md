@@ -47,13 +47,13 @@ make
     python3 ascot_psi.py --i ./exons/ctms_exons.tsv --a ctmsall --c ctmslinked --min 10 --f 1 --o ctms_psi.tsv
 
 >Human GTEx tissues + eye (GTEx) - ## datasets, ## exon query
-    python3 ascot_psi.py --i ./exons/gtexeye_exons_1.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part1.tsv
-    python3 ascot_psi.py --i ./exons/gtexeye_exons_2.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part2.tsv
-    python3 ascot_psi.py --i ./exons/gtexeye_exons_3.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part3.tsv
+    python3 ascot_psi.py --i ./exons/gtexeye_exons_1.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_1.tsv
+    python3 ascot_psi.py --i ./exons/gtexeye_exons_2.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_2.tsv
+    python3 ascot_psi.py --i ./exons/gtexeye_exons_3.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_3.tsv
 
 >ENCODE shRNA-Seq knockdown data (ENCODE) - # datasets, ## exon query
-    python3 ascot_psi.py --i ./exons/encodegtex_exons_1.tsv --a encodegtexall --c encodegtexlinked --o encodegtex_psi_part1.tsv
-    python3 ascot_psi.py --i ./exons/encodegtex_exons_2.tsv --a encodegtexall --c encodegtexlinked --o encodegtex_psi_part2.tsv
+    python3 ascot_psi.py --i ./exons/encode_exons_1.tsv --a encodegtexall --c encodegtexlinked --o encode_psi_1.tsv
+    python3 ascot_psi.py --i ./exons/encode_exons_2.tsv --a encodegtexall --c encodegtexlinked --o encode_psi_2.tsv
 ```
 
 #### To generate the gene expression NAUC data tables:
