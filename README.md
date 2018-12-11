@@ -15,7 +15,7 @@ Comments and suggestions are always welcome: [ascotfeedback@gmail.com](ascotfeed
 #### Usage instructions (we recommend a system with at least 30Gb ram):
 ```
 git clone https://github.com/jpling/ascot.git
-cd ./software/snaptron
+cd ./ascot/software/snaptron
 make
 ```
 
