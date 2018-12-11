@@ -12,6 +12,25 @@ Please refer to our [bioRxiv preprint](http://www.biorxiv.org/) and the accompan
 
 Comments and suggestions are always welcome: [ascotfeedback@gmail.com](ascotfeedback@gmail.com)
 
+#### UCSC TrackHubs for data visualization:
+We strongly recommend that users cross-validate any splicing results obtained from ASCOT. One way to do so is to visualize the data on the [UCSC Genome Browser](https://genome.ucsc.edu). We provide TrackHubs (collections of .bigwig files) from each dataset in ASCOT:
+```
+>Mouse cell types and tissues from bulk RNA-Seq (MESA) TrackHub link
+    http://snaptron.cs.jhu.edu/data/supermouse/sums/MESAHub/hub.txt
+    
+>Mouse single-cell RNA-Seq data (CellTower) TrackHub link
+    http://snaptron.cs.jhu.edu/data/ct_m_s/sums/CTMSHub/hub.txt
+    
+>Human GTEx tissues + eye (GTEx) TrackHub link
+    http://snaptron.cs.jhu.edu/data/encode1159/sums/ENCODEHub/hub.txt
+    
+>ENCODE shRNA-Seq knockdown data (ENCODE) TrackHub link
+    http://snaptron.cs.jhu.edu/data/gtex/sums/GTEXHub/hub.txt
+```
+
+Instructions for using TrackHubs are available on the [UCSC help page](https://genome.ucsc.edu/goldenpath/help/hgTrackHubHelp.html).
+In brief, navigate to the top menu bar option `My Data` -> `Track Hubs`, select `My Hubs` tab, enter URL from above and select `Add Hub`.
+
 #### Usage instructions (we recommend a system with at least 30Gb ram):
 ```
 git clone https://github.com/jpling/ascot.git
