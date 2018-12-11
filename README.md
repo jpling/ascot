@@ -29,7 +29,7 @@ We strongly recommend that users cross-validate any splicing results obtained fr
 ```
 
 Instructions for using TrackHubs are available on the [UCSC help page](https://genome.ucsc.edu/goldenpath/help/hgTrackHubHelp.html).
-In brief, navigate to the top menu bar option `My Data` -> `Track Hubs`, select `My Hubs` tab, enter URL from above and select `Add Hub`.
+In brief, navigate to the top menu bar option `My Data > Track Hubs`, select the `My Hubs` tab, enter URL from above and select `Add Hub`.
 
 #### Usage instructions (we recommend a system with at least 30Gb ram):
 ```
