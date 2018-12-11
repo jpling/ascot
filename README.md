@@ -14,11 +14,9 @@ Comments and suggestions are always welcome: [ascotfeedback@gmail.com](ascotfeed
 
 #### Usage instructions (we recommend a system with at least 30Gb ram):
 ```
-git clone https://github.com/jling/ascot.git
+git clone https://github.com/jpling/ascot.git
 cd ./software/snaptron
 make
-cd ../../exons
-python getexons.py
 ```
 
 #### To generate the splicing PSI data tables:
@@ -43,10 +41,13 @@ python getexons.py
 ```
 >Mouse cell types and tissues from bulk RNA-Seq (MESA)
     python3 ascot_nauc.py --a mesaall --c mesalinked --o mesa_nauc.tsv
+    
 >Mouse single-cell RNA-Seq data (CellTower)
     python3 ascot_nauc.py --a ctmsall --c ctmslinked --o ctms_nauc.tsv
+    
 >Human GTEx tissues + eye (GTEx)
     python3 ascot_nauc.py --a gtexeyeall --c gtexeyelinked --o gtexeye_nauc.tsv
+    
 >ENCODE shRNA-Seq knockdown data (ENCODE)
     python3 ascot_nauc.py --a encodegtexall --c encodegtexlinked --o encodegtex_nauc.tsv
 ```
