@@ -22,43 +22,31 @@ python getexons.py
 ```
 
 #### To generate the splicing PSI data tables:
-Mouse cell types and tissues from bulk RNA-Seq (MESA) - ## datasets, ## exon query
 ```
-python3 ascot_psi.py --i ./exons/mesa_exons.tsv --a mesaall --c mesalinked --o mesa_psi.tsv
-```
+>Mouse cell types and tissues from bulk RNA-Seq (MESA) - ## datasets, ## exon query
+    python3 ascot_psi.py --i ./exons/mesa_exons.tsv --a mesaall --c mesalinked --o mesa_psi.tsv
 
-Mouse single-cell RNA-Seq data (CellTower) - ## datasets, ## exon query
-```
-python3 ascot_psi.py --i ./exons/ctms_exons.tsv --a ctmsall --c ctmslinked --min 10 --f 1 --o ctms_psi.tsv
-```
+>Mouse single-cell RNA-Seq data (CellTower) - ## datasets, ## exon query
+    python3 ascot_psi.py --i ./exons/ctms_exons.tsv --a ctmsall --c ctmslinked --min 10 --f 1 --o ctms_psi.tsv
 
-Human GTEx tissues + eye (GTEx) - ## datasets, ## exon query
-```
-python3 ascot_psi.py --i ./exons/gtexeye_exons_1.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part1.tsv
-python3 ascot_psi.py --i ./exons/gtexeye_exons_2.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part2.tsv
-python3 ascot_psi.py --i ./exons/gtexeye_exons_3.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part3.tsv
-```
+>Human GTEx tissues + eye (GTEx) - ## datasets, ## exon query
+    python3 ascot_psi.py --i ./exons/gtexeye_exons_1.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part1.tsv
+    python3 ascot_psi.py --i ./exons/gtexeye_exons_2.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part2.tsv
+    python3 ascot_psi.py --i ./exons/gtexeye_exons_3.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_part3.tsv
 
-ENCODE shRNA-Seq knockdown data (ENCODE) - # datasets, ## exon query
-```
-python3 ascot_psi.py --i ./exons/encodegtex_exons_1.tsv --a encodegtexall --c encodegtexlinked --o encodegtex_psi_part1.tsv
-python3 ascot_psi.py --i ./exons/encodegtex_exons_2.tsv --a encodegtexall --c encodegtexlinked --o encodegtex_psi_part2.tsv
+>ENCODE shRNA-Seq knockdown data (ENCODE) - # datasets, ## exon query
+    python3 ascot_psi.py --i ./exons/encodegtex_exons_1.tsv --a encodegtexall --c encodegtexlinked --o encodegtex_psi_part1.tsv
+    python3 ascot_psi.py --i ./exons/encodegtex_exons_2.tsv --a encodegtexall --c encodegtexlinked --o encodegtex_psi_part2.tsv
 ```
 
 #### To generate the gene expression NAUC data tables:
-Mouse cell types and tissues from bulk RNA-Seq (MESA)
 ```
-python3 ascot_nauc.py --a mesaall --c mesalinked --o mesa_nauc.tsv
-```
-Mouse single-cell RNA-Seq data (CellTower)
-```
-python3 ascot_nauc.py --a ctmsall --c ctmslinked --o ctms_nauc.tsv
-```
-Human GTEx tissues + eye (GTEx)
-```
-python3 ascot_nauc.py --a gtexeyeall --c gtexeyelinked --o gtexeye_nauc.tsv
-```
-ENCODE shRNA-Seq knockdown data (ENCODE)
-```
-python3 ascot_nauc.py --a encodegtexall --c encodegtexlinked --o encodegtex_nauc.tsv
+>Mouse cell types and tissues from bulk RNA-Seq (MESA)
+    python3 ascot_nauc.py --a mesaall --c mesalinked --o mesa_nauc.tsv
+>Mouse single-cell RNA-Seq data (CellTower)
+    python3 ascot_nauc.py --a ctmsall --c ctmslinked --o ctms_nauc.tsv
+>Human GTEx tissues + eye (GTEx)
+    python3 ascot_nauc.py --a gtexeyeall --c gtexeyelinked --o gtexeye_nauc.tsv
+>ENCODE shRNA-Seq knockdown data (ENCODE)
+    python3 ascot_nauc.py --a encodegtexall --c encodegtexlinked --o encodegtex_nauc.tsv
 ```
