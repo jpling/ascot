@@ -68,5 +68,5 @@ make
     python3 ascot_nauc.py --a gtexeyeall --c gtexeyelinked --o gtexeye_nauc.tsv
     
 >ENCODE shRNA-Seq knockdown data (ENCODE)
-    python3 ascot_nauc.py --a encodegtexall --c encodegtexlinked --o encodegtex_nauc.tsv
+    python3 ascot_nauc.py --a encodegtexall --c encodegtexlinked --o encode_nauc.tsv
 ```
