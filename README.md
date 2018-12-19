@@ -22,10 +22,10 @@ We strongly recommend that users cross-validate any splicing results obtained fr
     http://snaptron.cs.jhu.edu/data/ct_m_s/sums/CTMSHub/hub.txt
     
 >Human GTEx tissues + eye (GTEx) TrackHub link
-    http://snaptron.cs.jhu.edu/data/encode1159/sums/ENCODEHub/hub.txt
+    http://snaptron.cs.jhu.edu/data/gtex/sums/GTEXHub/hub.txt
     
 >ENCODE shRNA-Seq knockdown data (ENCODE) TrackHub link
-    http://snaptron.cs.jhu.edu/data/gtex/sums/GTEXHub/hub.txt
+    http://snaptron.cs.jhu.edu/data/encode1159/sums/ENCODEHub/hub.txt
 ```
 
 Instructions for using TrackHubs are available on the [UCSC help page](https://genome.ucsc.edu/goldenpath/help/hgTrackHubHelp.html).
