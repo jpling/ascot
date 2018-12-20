@@ -6,7 +6,7 @@
 
 [ASCOT](http://ascot.cs.jhu.edu) quantifies alternative splicing and gene expression across tens of thousands of bulk and single-cell RNA-Seq datasets in human and mouse. This repository contains the scripts used to generate the PSI/NAUC tables for this resource.
 
-ASCOT uses [annotation-free methods](http://www.biorxiv.org/) to detect exon percent spliced-in (PSI) values within [Snaptron](http://snaptron.cs.jhu.edu/), a rapidly queryable database of splice junction counts derived from public RNA-seq data. Gene expression levels are calculated using a normalized "area-under-curve" (NAUC) metric as described in [recount2](https://jhubiostatistics.shinyapps.io/recount/).
+ASCOT uses [annotation-free methods](https://www.biorxiv.org/content/early/2018/12/20/501882) to detect exon percent spliced-in (PSI) values within [Snaptron](http://snaptron.cs.jhu.edu/), a rapidly queryable database of splice junction counts derived from public RNA-seq data. Gene expression levels are calculated using a normalized "area-under-curve" (NAUC) metric as described in [recount2](https://jhubiostatistics.shinyapps.io/recount/).
 
 Please refer to our [bioRxiv preprint](https://www.biorxiv.org/content/early/2018/12/20/501882) and the accompanying [ASCOT website](http://ascot.cs.jhu.edu). All data tables are available for [download](http://snaptron.cs.jhu.edu/data/ascot/).
 
