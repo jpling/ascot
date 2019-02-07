@@ -40,18 +40,18 @@ make
 
 #### To generate the splicing PSI data tables:
 ```
->Mouse cell types and tissues from bulk RNA-Seq (MESA) - ## datasets, ## exon query
+>Mouse cell types and tissues from bulk RNA-Seq (MESA)
     python3 ascot_psi.py --i ./exons/mesa_exons.tsv --a mesaall --c mesalinked --o mesa_psi.tsv
 
->Mouse single-cell RNA-Seq data (CellTower) - ## datasets, ## exon query
+>Mouse single-cell RNA-Seq data (CellTower)
     python3 ascot_psi.py --i ./exons/ctms_exons.tsv --a ctmsall --c ctmslinked --min 10 --f 1 --o ctms_psi.tsv
 
->Human GTEx tissues + eye (GTEx) - ## datasets, ## exon query
+>Human GTEx tissues + eye (GTEx)
     python3 ascot_psi.py --i ./exons/gtexeye_exons_1.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_1.tsv
     python3 ascot_psi.py --i ./exons/gtexeye_exons_2.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_2.tsv
     python3 ascot_psi.py --i ./exons/gtexeye_exons_3.tsv --a gtexeyeall --c gtexeyelinked --o gtexeye_psi_3.tsv
 
->ENCODE shRNA-Seq knockdown data (ENCODE) - # datasets, ## exon query
+>ENCODE shRNA-Seq knockdown data (ENCODE)
     python3 ascot_psi.py --i ./exons/encode_exons_1.tsv --a encodegtexall --c encodegtexlinked --o encode_psi_1.tsv
     python3 ascot_psi.py --i ./exons/encode_exons_2.tsv --a encodegtexall --c encodegtexlinked --o encode_psi_2.tsv
 ```
