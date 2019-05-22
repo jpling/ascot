@@ -16,7 +16,7 @@ Comments and suggestions are always welcome: [ascotfeedback@gmail.com](ascotfeed
 We strongly recommend that users cross-validate any splicing results obtained from ASCOT. One way to do so is to visualize the data on the [UCSC Genome Browser](https://genome.ucsc.edu). We provide TrackHubs (collections of .bigwig files) from each dataset in ASCOT:
 ```
 >Mouse cell types and tissues from bulk RNA-Seq (MESA) TrackHub link
-    http://snaptron.cs.jhu.edu/data/supermouse/sums/MESAHub/hub.txt
+    http://snaptron.cs.jhu.edu/data/mesa/sums/MESAHub/hub.txt
     
 >Mouse single-cell RNA-Seq data (CellTower) TrackHub link
     http://snaptron.cs.jhu.edu/data/ct_m_s/sums/CTMSHub/hub.txt
