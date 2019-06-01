@@ -10,6 +10,8 @@ ASCOT uses [annotation-free methods](https://www.biorxiv.org/content/early/2018/
 
 Please refer to our [bioRxiv preprint](https://www.biorxiv.org/content/early/2018/12/20/501882) and the accompanying [ASCOT website](http://ascot.cs.jhu.edu). All data tables are available for [download](http://snaptron.cs.jhu.edu/data/ascot/).
 
+The github repository for the ASCOT website UI is available at [https://github.com/langmead-lab/ascot-ui](https://github.com/langmead-lab/ascot-ui)
+
 Comments and suggestions are always welcome: [ascotfeedback@gmail.com](ascotfeedback@gmail.com)
 
 #### UCSC TrackHubs for data visualization:
