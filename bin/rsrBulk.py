@@ -79,7 +79,7 @@ parser.add_argument('--preset', action='store',
                     metavar = '',
                     help='Optional: choose a preset section in config instead of \'MAIN\'\n  e.g. -preset SUPERMOUSE')
 parser.add_argument('--inclusion-fraction', action='store',
-                    type=float, default=0.6,
+                    type=float, default=0.7,
                     help='A junction is considered an inclusion junction if it accounts for at least '
                          'this fraction of the splicing events incident on the exon.')
 parser.add_argument('--queries-per-batch', action='store',
