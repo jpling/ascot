@@ -40,7 +40,8 @@ cd ./ascot/software/snaptron
 make
 ```
 
-#### To generate the splicing PSI data tables:
+#### All PSI and NAUC data tables can be downloaded [here](http://snaptron.cs.jhu.edu/data/ascot/).
+#### To rederive the splicing PSI data tables:
 ```
 >Mouse cell types and tissues from bulk RNA-Seq (MESA)
     python3 ascot_psi.py --i ./exons/mesa_exons.tsv --a mesaall --c mesalinked --o mesa_psi.tsv
@@ -58,7 +59,7 @@ make
     python3 ascot_psi.py --i ./exons/encode_exons_2.tsv --a encodegtexall --c encodegtexlinked --o encode_psi_2.tsv
 ```
 
-#### To generate the gene expression NAUC data tables:
+#### To rederive the gene expression NAUC data tables:
 ```
 >Mouse cell types and tissues from bulk RNA-Seq (MESA)
     python3 ascot_nauc.py --a mesaall --c mesalinked --o mesa_nauc.tsv
